@@ -1,10 +1,8 @@
 # Text_Summarization_Application
 
-# 📚 AI Text Summarization System
-
 ## Overview
 
-The **AI Text Summarization System** is a web-based application that automatically generates concise summaries from long documents using Large Language Models (LLMs).
+The **AI Text_Summarization_Application** is a web-based application that automatically generates concise summaries from long documents using Large Language Models (LLMs).
 
 The application uses:
 
@@ -22,24 +20,24 @@ Users can generate summaries and download them in multiple formats.
 
 ---
 
-# ✨ Features
+#  Features
 
 ## Input Options
 
-✅ Paste text directly into the application
+ Paste text directly into the application
 
-✅ Upload PDF documents
+ Upload PDF documents
 
 
 ## Summarization
 
-✅ Map-Reduce summarization workflow
+ Map-Reduce summarization workflow
 
-✅ LangChain 1.x compatible implementation
+ LangChain 1.x compatible implementation
 
-✅ OpenAI GPT-powered summaries
+ OpenAI GPT-powered summaries
 
-✅ Adjustable summary length:
+ Adjustable summary length:
 
 - Short
 - Medium
@@ -77,7 +75,7 @@ The application includes:
 
 ---
 
-# 🏗️ Project Structure
+#  Project Structure
 
 
 TextSummarizationApp/
@@ -107,7 +105,7 @@ Streamlit configuration files
 
 ---
 
-# 🛠️ Technology Stack
+#  Technology Stack
 
 ## Frontend
 
@@ -137,7 +135,7 @@ Streamlit configuration files
 
 ---
 
-# ⚙️ Installation
+#  Installation
 
 ## 1. Clone the Repository
 
@@ -158,7 +156,7 @@ Linux / Mac
 source venv/bin/activate
 3. Install Dependencies
 pip install -r requirements.txt
-🔑 OpenAI API Configuration
+ OpenAI API Configuration
 
 The application uses Streamlit Secrets to protect the OpenAI API key.
 
@@ -174,7 +172,7 @@ OPENAI_API_KEY="your-openai-api-key"
 
 Do not upload this file to GitHub.
 
-▶️ Running the Application Locally
+ Running the Application Locally
 
 Run:
 
@@ -183,7 +181,7 @@ streamlit run app.py
 The application will open in your browser:
 
 http://localhost:8501
-🚀 Deploying on Streamlit Community Cloud
+ Deploying on Streamlit Community Cloud
 Step 1: Push Project to GitHub
 
 Your repository should contain:
@@ -231,7 +229,7 @@ OPENAI_API_KEY="your-openai-api-key"
 
 Save and restart the application.
 
-🔒 Security Notes
+ Security Notes
 
 Never store API keys:
 
@@ -245,7 +243,7 @@ st.secrets["OPENAI_API_KEY"]
 
 for secure access.
 
-🖥️ Application Workflow
+ Application Workflow
 User Input
     |
     |
@@ -267,7 +265,7 @@ Final Summary
     |
     |
 Download Output
-📌 Future Improvements
+ Future Improvements
 
 Possible future enhancements:
 
@@ -293,16 +291,16 @@ Your project now contains:
 TextSummarizationApp/
 
 │
-├── app.py                 ✅
-├── summarizer.py          ✅
-├── helpers.py             ✅
-├── downloads.py           ✅
-├── requirements.txt       ✅
-├── README.md              ✅
+├── app.py                 
+├── summarizer.py          
+├── helpers.py             
+├── downloads.py           
+├── requirements.txt       
+├── README.md              
 │
 ├── assets/
-│   ├── logo.png           ⏳
-│   └── banner.png         ⏳
+│   ├── logo.png           
+│   └── banner.png         
 │
 └── .streamlit/
-    └── config.toml        ⏳
+    └── config.toml        
