@@ -1,0 +1,46 @@
+# ======================================================
+# Streamlit Application Configuration
+# Academic University Theme
+# ======================================================
+
+
+[theme]
+
+# Main academic navy blue
+primaryColor="#003366"
+
+
+# Application background
+backgroundColor="#F4F8FB"
+
+
+# Sidebar and component background
+secondaryBackgroundColor="#FFFFFF"
+
+
+# Text color
+textColor="#1A1A1A"
+
+
+# Font style
+font="sans serif"
+
+
+
+[server]
+
+# Enable browser opening locally
+headless=true
+
+
+# Allow Streamlit Cloud compatibility
+enableCORS=false
+
+enableXsrfProtection=true
+
+
+
+[browser]
+
+# Collect minimal usage statistics
+gatherUsageStats=false
