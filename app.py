@@ -91,13 +91,13 @@ footer{
 with st.sidebar:
 
     st.image(
-        "assets/logo.png",
-        use_container_width=True
+        "assets/Logo.png",
+        width=180
     )
 
     st.title("AI Summarizer")
 
-    st.markdown(
+    st.markdown("## AI Text Summarizer")
         """
 This application performs academic text summarization
 using OpenAI Large Language Models.
@@ -118,11 +118,11 @@ to summarize large documents.
 ###########################################################
 
 st.image(
-    "assets/banner.png",
+    "assets/Banner.png",
     use_container_width=True
 )
 
-st.title("Academic Text Summarization System")
+st.title(" AI Text Summarization")
 
 st.write(
 """
