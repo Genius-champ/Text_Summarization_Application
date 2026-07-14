@@ -97,8 +97,10 @@ with st.sidebar:
 
     st.title("AI Summarizer")
 
-    st.markdown("## AI Text Summarizer")
+    st.markdown(
         """
+## AI Text Summarizer
+
 This application performs academic text summarization
 using OpenAI Large Language Models.
 
